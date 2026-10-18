@@ -1,0 +1,51 @@
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ===== 密钥与本地配置（务必不要提交） =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+coverage/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 其他常见构建产物 =====
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.class
