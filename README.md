@@ -5,7 +5,7 @@
 ## 快速开始
 
 ```bash
-git clone git@github.com:<owner>/what.git
+git clone git@github.com:DH-amT/what.git
 ```
 
 ## 说明
